@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+:root {
+    --font: 'DM Serif Display', serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 234, 218);
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    margin-inline: auto;
+    margin-block: 0;
+    display: block;
+    flex-direction: column;
+    background-color: rgb(253, 247, 240);
+    color: black;
+    height: fit-content;
+    z-index: 10;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.487);
+}
+.image {
+    background-color: rgb(253, 247, 240);
+    margin: 0;
+}
+img {
+    
+    display: block;
+    margin: auto;
+    width: 222px;
+    height: 285px;
+    border-radius: 192px;
+}
+
+h1 {
+    
+    font-size: 80px;
+    margin: 0px;
+}
+h1:hover, a:hover {
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+h4 {
+    font-family: 'Bodoni Moda', serif;
+    margin: 0;
+    font-style: italic;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+}
+
+.container h3 {
+text-align: center;
+}
+.container p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.footer {
+    background-color: rgb(253, 247, 240);
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.487);
+}
+.footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color :rgb(0, 0, 0);
+}
